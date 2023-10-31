@@ -1,0 +1,12 @@
+Guide to Implementation
+
+The project combines the data structures I learned in hw7 and hw8 with the application idea for hw2.I constructed a generic Binary Tree that takes in a generic Node which I used to sort students based
+on different fields of data. The classroom class organizes and saves the student objects into different binary trees and lists constructed by traversing those trees. There are two tree classes that extend the generic binary tree. BinSearchTreeNames.java uses the full name of the student as the data field and constructs an alphabetized binary tree through a binary tree search algorithm. The other, 
+BinSearchTreeGrades.java uses an arraylist of Students as the node's data field and constructs a binary search tree. Using the arraylist allows us to add multiple Students with the same grade to the tree.
+
+For the most part I coded this project independently. Although I had to look up a method to alphabetize strings.
+
+Ideas to Continue:
+- Finish and expand hw6. I had the most trouble on hw6 because of the graphics. I would add 
+graphics to this assignment, but I am not sure how that would improve the project.
+- Add more fields to the student and manipulate them to serve the classrooms purpose.
